@@ -1,0 +1,18 @@
+{
+  "name": "gumroad-clone",
+  "version": "0.0.1",
+  "description": "Gumroad clone using AWSJS, Stripe and AngularJS",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/growlybear/gumroad-clone.git"
+  },
+  "author": "Michael Allan",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/growlybear/gumroad-clone/issues"
+  }
+}
