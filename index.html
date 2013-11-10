@@ -40,5 +40,18 @@
   <script src="scripts/services.js"></script>
   <script src="scripts/directives.js"></script>
 
+  <!-- TODO switch this aws-js-sdk to bower component when updated to 2.0 -->
+  <script src="scripts/vendor/aws-sdk-2.0.0-rc1.js"></script>
+  <!-- Stripe -->
+  <script src="https://js.stripe.com/v2/"></script>
+  <!-- Google+ -->
+  <script>
+    (function() {
+       var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+       po.src = 'https://apis.google.com/js/client:plusone.js?onload=appInit';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+     })();
+  </script>
+
 </body>
 </html>
