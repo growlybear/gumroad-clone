@@ -38,7 +38,7 @@ angular.module('myApp.directives', [])
             // set the standard google signin button settings
             attrs.$set('data-callback', callbackId);
             attrs.$set('data-cookiepolicy', 'single_host_origin');
-            attrs.$set('data-requestvisibleactions', 'http://schemas.gogle.com/AddActivity');
+            attrs.$set('data-requestvisibleactions', 'http://schemas.google.com/AddActivity');
             attrs.$set('data-scope', scopeUrls.join(' '));
 
             // finally, reload the client library to force
