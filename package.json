@@ -16,6 +16,7 @@
     "url": "https://github.com/growlybear/gumroad-clone/issues"
   },
   "devDependencies": {
-    "bower": "~1.2.7"
+    "bower": "~1.2.7",
+    "serve": "~1.3.0"
   }
 }
