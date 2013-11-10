@@ -1,0 +1,20 @@
+{
+  "name": "gumroad-clone",
+  "version": "0.0.1",
+  "homepage": "https://github.com/growlybear/gumroad-clone",
+  "authors": [
+    "Michael Allan <michaelallan@optushome.com.au>"
+  ],
+  "description": "Gumroad clone using AWSJS, Stripe and AngularJS",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ]
+}
