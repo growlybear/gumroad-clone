@@ -5,7 +5,7 @@ window.appInit = function () {
     // when the document is ready
     angular.element(document).ready(function () {
         // bootstrap the oauth2 library
-        gapi.client.load('oauth', 'v2', function () {
+        gapi.client.load('oauth2', 'v2', function () {
             // and finally, bootstrap our angular app
             angular.bootstrap(document, ['myApp']);
         });
