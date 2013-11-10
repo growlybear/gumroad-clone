@@ -16,7 +16,15 @@ angular.module('myApp.services', [])
 
         currentUser: function () {
             var d = $q.defer();
-            d.resolve(service._user);
+
+            if (service._user) {
+                d.resolve(service._user);
+            } else {
+                gapi.client.oauth2.userinfo.get().execute(function (e) {
+                    service._user = e;
+                })
+            }
+
             return d.promise;
         }
     };
