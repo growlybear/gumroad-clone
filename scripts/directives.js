@@ -2,7 +2,7 @@ angular.module('myApp.directives', [])
 .directive('googleSignin', function () {
     return {
         restrict: 'A',
-        template: '<span id="signinButton></span>',
+        template: '<span id="signinButton"></span>',
         replace: true,
         scope: {
             afterSignin: '&'
